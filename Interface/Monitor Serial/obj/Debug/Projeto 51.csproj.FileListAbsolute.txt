@@ -1,0 +1,9 @@
+C:\Users\Alexandre\source\repos\Projeto 51\obj\Debug\Projeto_51.Form1.resources
+C:\Users\Alexandre\source\repos\Projeto 51\obj\Debug\Projeto_51.Properties.Resources.resources
+C:\Users\Alexandre\source\repos\Projeto 51\obj\Debug\Projeto 51.csproj.GenerateResource.cache
+C:\Users\Alexandre\source\repos\Projeto 51\obj\Debug\Projeto 51.csproj.CoreCompileInputs.cache
+C:\Users\Alexandre\source\repos\Projeto 51\bin\Debug\Projeto 51.exe.config
+C:\Users\Alexandre\source\repos\Projeto 51\bin\Debug\Projeto 51.exe
+C:\Users\Alexandre\source\repos\Projeto 51\bin\Debug\Projeto 51.pdb
+C:\Users\Alexandre\source\repos\Projeto 51\obj\Debug\Projeto 51.exe
+C:\Users\Alexandre\source\repos\Projeto 51\obj\Debug\Projeto 51.pdb
