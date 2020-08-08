@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO.Ports;
 
-namespace Projeto_51
+namespace Projeto_Final
 {
    public partial class Form1 : Form
 {
@@ -19,7 +19,7 @@ namespace Projeto_51
     {
         InitializeComponent();
         getPortas();
-    }
+     }
         void getPortas()
         {
             string[] Portas = SerialPort.GetPortNames();
@@ -91,9 +91,12 @@ namespace Projeto_51
         btnSair.Enabled = true;
         btnAbrir.Enabled = true;
     }
-    private void btnAbrir_Click(object sender, EventArgs e)
+    private void btnAbrir_Click_1(object sender, EventArgs e)
     {
-        if (Serial.IsOpen == true) Serial.Close();
+            if (Serial.IsOpen == true)
+            {
+                Serial.Close();
+            }
 
         Serial.PortName = cbPortas.Text;
         Serial.BaudRate = Int32.Parse(cbBaud.Text);
@@ -103,8 +106,9 @@ namespace Projeto_51
 
         try
         {
-            txtRecebe.Text = "Estive aqui";
+            
             Serial.Open();
+            progressBar.Value = 100;
             btnAbrir.Enabled = false;
             btnFechar.Enabled = true;
             btnSair.Enabled = false;
@@ -121,19 +125,20 @@ namespace Projeto_51
             btnSair.Enabled = false;
         }
     }
-    private void button2_Click(object sender, EventArgs e)
+    private void btnFechar_Click(object sender, EventArgs e)
     {
         Serial.Close();
+        progressBar.Value = 0;
         btnFechar.Enabled = false;
         btnSair.Enabled = true;
         btnAbrir.Enabled = true;
     }
-    private void btnSair_Click(object sender, EventArgs e)
+    private void btnSair_Click_1(object sender, EventArgs e)
     {
         Serial.Close();
         Close();
     }
-    private void btnEnviar_Click(object sender, EventArgs e)
+    private void btnEnviar_Click_1(object sender, EventArgs e)
     {
         if (Serial.IsOpen)
         {
@@ -151,5 +156,10 @@ namespace Projeto_51
     {
         txtRecebe.Text += RxString;
     }
-}
+
+        private void progressBar_Click(object sender, EventArgs e)
+        {
+
+        }
+                 }
 }
