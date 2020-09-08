@@ -29,22 +29,22 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.AGaugeRange aGaugeRange3 = new System.Windows.Forms.AGaugeRange();
-            System.Windows.Forms.AGaugeRange aGaugeRange4 = new System.Windows.Forms.AGaugeRange();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea10 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea11 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series11 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea12 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series12 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea13 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series13 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea14 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series14 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.AGaugeRange aGaugeRange1 = new System.Windows.Forms.AGaugeRange();
+            System.Windows.Forms.AGaugeRange aGaugeRange2 = new System.Windows.Forms.AGaugeRange();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
@@ -108,6 +108,9 @@
             this.chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.groupBox19 = new System.Windows.Forms.GroupBox();
+            this.scrGraf = new System.Windows.Forms.HScrollBar();
+            this.chart3 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
             this.Serial = new System.IO.Ports.SerialPort(this.components);
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -117,8 +120,6 @@
             this.tmrApp = new System.Windows.Forms.Timer(this.components);
             this.svArquivo = new System.Windows.Forms.SaveFileDialog();
             this.tmrPlot = new System.Windows.Forms.Timer(this.components);
-            this.groupBox19 = new System.Windows.Forms.GroupBox();
-            this.chart3 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -150,9 +151,9 @@
             this.groupBox13.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart2)).BeginInit();
             this.tabPage5.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
             this.groupBox19.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart3)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -162,11 +163,11 @@
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Controls.Add(this.tabPage5);
-            this.tabControl1.Location = new System.Drawing.Point(2, 27);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabControl1.Location = new System.Drawing.Point(3, 33);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(852, 607);
+            this.tabControl1.Size = new System.Drawing.Size(1136, 747);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -178,63 +179,63 @@
             this.tabPage1.Controls.Add(this.btnFechar);
             this.tabPage1.Controls.Add(this.groupBox1);
             this.tabPage1.Controls.Add(this.btnAbrir);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.tabPage1.Size = new System.Drawing.Size(844, 581);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabPage1.Size = new System.Drawing.Size(1128, 718);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Monitor Serial";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(672, 3);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dateTimePicker1.Location = new System.Drawing.Point(896, 4);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(170, 20);
+            this.dateTimePicker1.Size = new System.Drawing.Size(225, 22);
             this.dateTimePicker1.TabIndex = 29;
             // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.txtRecebe);
-            this.groupBox3.Location = new System.Drawing.Point(18, 293);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Location = new System.Drawing.Point(24, 361);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox3.Size = new System.Drawing.Size(724, 292);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox3.Size = new System.Drawing.Size(965, 359);
             this.groupBox3.TabIndex = 28;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Recepção";
             // 
             // txtRecebe
             // 
-            this.txtRecebe.Location = new System.Drawing.Point(14, 22);
-            this.txtRecebe.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtRecebe.Location = new System.Drawing.Point(19, 27);
+            this.txtRecebe.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtRecebe.Multiline = true;
             this.txtRecebe.Name = "txtRecebe";
-            this.txtRecebe.Size = new System.Drawing.Size(693, 252);
+            this.txtRecebe.Size = new System.Drawing.Size(923, 309);
             this.txtRecebe.TabIndex = 0;
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.btnEnviar);
             this.groupBox2.Controls.Add(this.txtTransmite);
-            this.groupBox2.Location = new System.Drawing.Point(18, 166);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Location = new System.Drawing.Point(24, 204);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox2.Size = new System.Drawing.Size(724, 115);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox2.Size = new System.Drawing.Size(965, 142);
             this.groupBox2.TabIndex = 27;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Transmissão";
             // 
             // btnEnviar
             // 
-            this.btnEnviar.Location = new System.Drawing.Point(621, 67);
-            this.btnEnviar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEnviar.Location = new System.Drawing.Point(828, 82);
+            this.btnEnviar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEnviar.Name = "btnEnviar";
-            this.btnEnviar.Size = new System.Drawing.Size(86, 34);
+            this.btnEnviar.Size = new System.Drawing.Size(115, 42);
             this.btnEnviar.TabIndex = 20;
             this.btnEnviar.Text = "Enviar";
             this.btnEnviar.UseVisualStyleBackColor = true;
@@ -242,18 +243,18 @@
             // 
             // txtTransmite
             // 
-            this.txtTransmite.Location = new System.Drawing.Point(14, 22);
-            this.txtTransmite.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTransmite.Location = new System.Drawing.Point(19, 27);
+            this.txtTransmite.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTransmite.Name = "txtTransmite";
-            this.txtTransmite.Size = new System.Drawing.Size(693, 20);
+            this.txtTransmite.Size = new System.Drawing.Size(923, 22);
             this.txtTransmite.TabIndex = 0;
             // 
             // btnSair
             // 
-            this.btnSair.Location = new System.Drawing.Point(753, 532);
-            this.btnSair.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSair.Location = new System.Drawing.Point(1004, 655);
+            this.btnSair.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(86, 34);
+            this.btnSair.Size = new System.Drawing.Size(115, 42);
             this.btnSair.TabIndex = 26;
             this.btnSair.Text = "Sair";
             this.btnSair.UseVisualStyleBackColor = true;
@@ -261,10 +262,10 @@
             // 
             // btnFechar
             // 
-            this.btnFechar.Location = new System.Drawing.Point(746, 99);
-            this.btnFechar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnFechar.Location = new System.Drawing.Point(995, 122);
+            this.btnFechar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnFechar.Name = "btnFechar";
-            this.btnFechar.Size = new System.Drawing.Size(86, 34);
+            this.btnFechar.Size = new System.Drawing.Size(115, 42);
             this.btnFechar.TabIndex = 25;
             this.btnFechar.Text = "FECHAR PORTA";
             this.btnFechar.UseVisualStyleBackColor = true;
@@ -284,11 +285,11 @@
             this.groupBox1.Controls.Add(this.lb_velocidade);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(18, 28);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Location = new System.Drawing.Point(24, 34);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox1.Size = new System.Drawing.Size(724, 133);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Size = new System.Drawing.Size(965, 164);
             this.groupBox1.TabIndex = 23;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Configuração";
@@ -297,10 +298,9 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(613, 70);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(817, 86);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(102, 13);
+            this.label5.Size = new System.Drawing.Size(125, 17);
             this.label5.TabIndex = 28;
             this.label5.Text = "BIT DE PARADA";
             // 
@@ -308,10 +308,9 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(465, 70);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(620, 86);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(103, 13);
+            this.label4.Size = new System.Drawing.Size(127, 17);
             this.label4.TabIndex = 27;
             this.label4.Text = "BITS DE DADOS";
             // 
@@ -319,10 +318,9 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(332, 70);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(443, 86);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 13);
+            this.label3.Size = new System.Drawing.Size(85, 17);
             this.label3.TabIndex = 26;
             this.label3.Text = "PARIDADE";
             // 
@@ -334,10 +332,10 @@
             "One",
             "Two",
             "OnePointFive"});
-            this.cbBitsParada.Location = new System.Drawing.Point(609, 86);
-            this.cbBitsParada.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbBitsParada.Location = new System.Drawing.Point(812, 106);
+            this.cbBitsParada.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbBitsParada.Name = "cbBitsParada";
-            this.cbBitsParada.Size = new System.Drawing.Size(98, 21);
+            this.cbBitsParada.Size = new System.Drawing.Size(129, 24);
             this.cbBitsParada.TabIndex = 25;
             // 
             // cbBitsDados
@@ -348,10 +346,10 @@
             "6",
             "7",
             "8"});
-            this.cbBitsDados.Location = new System.Drawing.Point(463, 86);
-            this.cbBitsDados.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbBitsDados.Location = new System.Drawing.Point(617, 106);
+            this.cbBitsDados.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbBitsDados.Name = "cbBitsDados";
-            this.cbBitsDados.Size = new System.Drawing.Size(98, 21);
+            this.cbBitsDados.Size = new System.Drawing.Size(129, 24);
             this.cbBitsDados.TabIndex = 24;
             // 
             // cbParidade
@@ -363,10 +361,10 @@
             "Even",
             "Mark",
             "Space"});
-            this.cbParidade.Location = new System.Drawing.Point(316, 86);
-            this.cbParidade.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbParidade.Location = new System.Drawing.Point(421, 106);
+            this.cbParidade.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbParidade.Name = "cbParidade";
-            this.cbParidade.Size = new System.Drawing.Size(98, 21);
+            this.cbParidade.Size = new System.Drawing.Size(129, 24);
             this.cbParidade.TabIndex = 23;
             // 
             // cbBaud
@@ -389,27 +387,27 @@
             "115200",
             "128000",
             "256000"});
-            this.cbBaud.Location = new System.Drawing.Point(166, 86);
-            this.cbBaud.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbBaud.Location = new System.Drawing.Point(221, 106);
+            this.cbBaud.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbBaud.Name = "cbBaud";
-            this.cbBaud.Size = new System.Drawing.Size(98, 21);
+            this.cbBaud.Size = new System.Drawing.Size(129, 24);
             this.cbBaud.TabIndex = 22;
             // 
             // cbPortas
             // 
             this.cbPortas.FormattingEnabled = true;
-            this.cbPortas.Location = new System.Drawing.Point(14, 86);
-            this.cbPortas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbPortas.Location = new System.Drawing.Point(19, 106);
+            this.cbPortas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbPortas.Name = "cbPortas";
-            this.cbPortas.Size = new System.Drawing.Size(98, 21);
+            this.cbPortas.Size = new System.Drawing.Size(129, 24);
             this.cbPortas.TabIndex = 21;
             // 
             // progressBar
             // 
-            this.progressBar.Location = new System.Drawing.Point(10, 36);
-            this.progressBar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.progressBar.Location = new System.Drawing.Point(13, 44);
+            this.progressBar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.progressBar.Name = "progressBar";
-            this.progressBar.Size = new System.Drawing.Size(254, 19);
+            this.progressBar.Size = new System.Drawing.Size(339, 23);
             this.progressBar.TabIndex = 20;
             this.progressBar.Click += new System.EventHandler(this.progressBar_Click);
             // 
@@ -417,10 +415,9 @@
             // 
             this.lb_velocidade.AutoSize = true;
             this.lb_velocidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_velocidade.Location = new System.Drawing.Point(176, 70);
-            this.lb_velocidade.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lb_velocidade.Location = new System.Drawing.Point(235, 86);
             this.lb_velocidade.Name = "lb_velocidade";
-            this.lb_velocidade.Size = new System.Drawing.Size(85, 13);
+            this.lb_velocidade.Size = new System.Drawing.Size(105, 17);
             this.lb_velocidade.TabIndex = 19;
             this.lb_velocidade.Text = "VELOCIDADE";
             // 
@@ -428,10 +425,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(34, 72);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(45, 89);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(57, 13);
+            this.label2.Size = new System.Drawing.Size(71, 17);
             this.label2.TabIndex = 18;
             this.label2.Text = "PORTAS";
             // 
@@ -439,19 +435,18 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(14, 20);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(19, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(135, 13);
+            this.label1.Size = new System.Drawing.Size(167, 17);
             this.label1.TabIndex = 17;
             this.label1.Text = "STATUS COM SERIAL";
             // 
             // btnAbrir
             // 
-            this.btnAbrir.Location = new System.Drawing.Point(746, 53);
-            this.btnAbrir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAbrir.Location = new System.Drawing.Point(995, 65);
+            this.btnAbrir.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAbrir.Name = "btnAbrir";
-            this.btnAbrir.Size = new System.Drawing.Size(86, 34);
+            this.btnAbrir.Size = new System.Drawing.Size(115, 42);
             this.btnAbrir.TabIndex = 24;
             this.btnAbrir.Text = "ABRIR PORTA";
             this.btnAbrir.UseVisualStyleBackColor = true;
@@ -466,30 +461,31 @@
             this.tabPage2.Controls.Add(this.groupBox5);
             this.tabPage2.Controls.Add(this.groupBox4);
             this.tabPage2.Controls.Add(this.dateTimePicker2);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.tabPage2.Size = new System.Drawing.Size(844, 581);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabPage2.Size = new System.Drawing.Size(1128, 718);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Motor de Indução";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(396, 291);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(528, 358);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(428, 266);
+            this.pictureBox1.Size = new System.Drawing.Size(571, 327);
             this.pictureBox1.TabIndex = 37;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(232, 321);
+            this.button2.Location = new System.Drawing.Point(309, 395);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(114, 32);
+            this.button2.Size = new System.Drawing.Size(152, 39);
             this.button2.TabIndex = 1;
             this.button2.Text = "&Desliga";
             this.button2.UseVisualStyleBackColor = true;
@@ -497,9 +493,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(60, 321);
+            this.button1.Location = new System.Drawing.Point(80, 395);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(114, 32);
+            this.button1.Size = new System.Drawing.Size(152, 39);
             this.button1.TabIndex = 0;
             this.button1.Text = "&Liga";
             this.button1.UseVisualStyleBackColor = true;
@@ -509,9 +506,11 @@
             // 
             this.groupBox6.Controls.Add(this.aGadc);
             this.groupBox6.Controls.Add(this.lblLeitura);
-            this.groupBox6.Location = new System.Drawing.Point(566, 29);
+            this.groupBox6.Location = new System.Drawing.Point(755, 36);
+            this.groupBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(257, 256);
+            this.groupBox6.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox6.Size = new System.Drawing.Size(343, 315);
             this.groupBox6.TabIndex = 33;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Velocidade (rpm)";
@@ -525,24 +524,24 @@
             this.aGadc.BaseArcSweep = 180;
             this.aGadc.BaseArcWidth = 2;
             this.aGadc.Center = new System.Drawing.Point(130, 120);
-            aGaugeRange3.Color = System.Drawing.Color.Lime;
-            aGaugeRange3.EndValue = 2000F;
-            aGaugeRange3.InnerRadius = 70;
-            aGaugeRange3.InRange = false;
-            aGaugeRange3.Name = "FuncOk";
-            aGaugeRange3.OuterRadius = 80;
-            aGaugeRange3.StartValue = 0F;
-            aGaugeRange4.Color = System.Drawing.Color.Red;
-            aGaugeRange4.EndValue = 3000F;
-            aGaugeRange4.InnerRadius = 70;
-            aGaugeRange4.InRange = false;
-            aGaugeRange4.Name = "GaugeRange1";
-            aGaugeRange4.OuterRadius = 80;
-            aGaugeRange4.StartValue = 2000F;
-            this.aGadc.GaugeRanges.Add(aGaugeRange3);
-            this.aGadc.GaugeRanges.Add(aGaugeRange4);
-            this.aGadc.Location = new System.Drawing.Point(5, 74);
-            this.aGadc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            aGaugeRange1.Color = System.Drawing.Color.Lime;
+            aGaugeRange1.EndValue = 2000F;
+            aGaugeRange1.InnerRadius = 70;
+            aGaugeRange1.InRange = false;
+            aGaugeRange1.Name = "FuncOk";
+            aGaugeRange1.OuterRadius = 80;
+            aGaugeRange1.StartValue = 0F;
+            aGaugeRange2.Color = System.Drawing.Color.Red;
+            aGaugeRange2.EndValue = 3000F;
+            aGaugeRange2.InnerRadius = 70;
+            aGaugeRange2.InRange = false;
+            aGaugeRange2.Name = "GaugeRange1";
+            aGaugeRange2.OuterRadius = 80;
+            aGaugeRange2.StartValue = 2000F;
+            this.aGadc.GaugeRanges.Add(aGaugeRange1);
+            this.aGadc.GaugeRanges.Add(aGaugeRange2);
+            this.aGadc.Location = new System.Drawing.Point(7, 91);
+            this.aGadc.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.aGadc.MaxValue = 3000F;
             this.aGadc.MinValue = 0F;
             this.aGadc.Name = "aGadc";
@@ -571,7 +570,7 @@
             this.aGadc.ScaleNumbersRotation = 0;
             this.aGadc.ScaleNumbersStartScaleLine = 1;
             this.aGadc.ScaleNumbersStepScaleLines = 1;
-            this.aGadc.Size = new System.Drawing.Size(247, 176);
+            this.aGadc.Size = new System.Drawing.Size(329, 217);
             this.aGadc.TabIndex = 1;
             this.aGadc.Text = "aGauge1";
             this.aGadc.Value = 0F;
@@ -581,9 +580,10 @@
             // 
             this.lblLeitura.AutoSize = true;
             this.lblLeitura.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLeitura.Location = new System.Drawing.Point(15, 16);
+            this.lblLeitura.Location = new System.Drawing.Point(20, 20);
+            this.lblLeitura.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLeitura.Name = "lblLeitura";
-            this.lblLeitura.Size = new System.Drawing.Size(236, 55);
+            this.lblLeitura.Size = new System.Drawing.Size(289, 69);
             this.lblLeitura.TabIndex = 0;
             this.lblLeitura.Text = "0000 rpm";
             // 
@@ -592,9 +592,11 @@
             this.groupBox5.Controls.Add(this.groupBox12);
             this.groupBox5.Controls.Add(this.groupBox11);
             this.groupBox5.Controls.Add(this.groupBox10);
-            this.groupBox5.Location = new System.Drawing.Point(21, 160);
+            this.groupBox5.Location = new System.Drawing.Point(28, 197);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(529, 125);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox5.Size = new System.Drawing.Size(705, 154);
             this.groupBox5.TabIndex = 32;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Corrente (A)";
@@ -602,11 +604,11 @@
             // groupBox12
             // 
             this.groupBox12.Controls.Add(this.label11);
-            this.groupBox12.Location = new System.Drawing.Point(397, 31);
-            this.groupBox12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox12.Location = new System.Drawing.Point(529, 38);
+            this.groupBox12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox12.Size = new System.Drawing.Size(100, 53);
+            this.groupBox12.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox12.Size = new System.Drawing.Size(133, 65);
             this.groupBox12.TabIndex = 13;
             this.groupBox12.TabStop = false;
             this.groupBox12.Text = "Linha 3";
@@ -615,20 +617,21 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(5, 15);
+            this.label11.Location = new System.Drawing.Point(7, 18);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(92, 29);
+            this.label11.Size = new System.Drawing.Size(118, 36);
             this.label11.TabIndex = 2;
             this.label11.Text = "0000 A";
             // 
             // groupBox11
             // 
             this.groupBox11.Controls.Add(this.label10);
-            this.groupBox11.Location = new System.Drawing.Point(211, 31);
-            this.groupBox11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox11.Location = new System.Drawing.Point(281, 38);
+            this.groupBox11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox11.Size = new System.Drawing.Size(100, 53);
+            this.groupBox11.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox11.Size = new System.Drawing.Size(133, 65);
             this.groupBox11.TabIndex = 13;
             this.groupBox11.TabStop = false;
             this.groupBox11.Text = "Linha 2";
@@ -637,20 +640,21 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(5, 15);
+            this.label10.Location = new System.Drawing.Point(7, 18);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(92, 29);
+            this.label10.Size = new System.Drawing.Size(118, 36);
             this.label10.TabIndex = 2;
             this.label10.Text = "0000 A";
             // 
             // groupBox10
             // 
             this.groupBox10.Controls.Add(this.label9);
-            this.groupBox10.Location = new System.Drawing.Point(27, 31);
-            this.groupBox10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox10.Location = new System.Drawing.Point(36, 38);
+            this.groupBox10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox10.Size = new System.Drawing.Size(100, 53);
+            this.groupBox10.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox10.Size = new System.Drawing.Size(133, 65);
             this.groupBox10.TabIndex = 12;
             this.groupBox10.TabStop = false;
             this.groupBox10.Text = "Linha 1";
@@ -659,9 +663,10 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(5, 15);
+            this.label9.Location = new System.Drawing.Point(7, 18);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(92, 29);
+            this.label9.Size = new System.Drawing.Size(118, 36);
             this.label9.TabIndex = 2;
             this.label9.Text = "0000 A";
             // 
@@ -670,9 +675,11 @@
             this.groupBox4.Controls.Add(this.groupBox9);
             this.groupBox4.Controls.Add(this.groupBox8);
             this.groupBox4.Controls.Add(this.groupBox7);
-            this.groupBox4.Location = new System.Drawing.Point(21, 29);
+            this.groupBox4.Location = new System.Drawing.Point(28, 36);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(529, 125);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Size = new System.Drawing.Size(705, 154);
             this.groupBox4.TabIndex = 31;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Tensão (V)";
@@ -680,11 +687,11 @@
             // groupBox9
             // 
             this.groupBox9.Controls.Add(this.label8);
-            this.groupBox9.Location = new System.Drawing.Point(397, 34);
-            this.groupBox9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox9.Location = new System.Drawing.Point(529, 42);
+            this.groupBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox9.Size = new System.Drawing.Size(100, 53);
+            this.groupBox9.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox9.Size = new System.Drawing.Size(133, 65);
             this.groupBox9.TabIndex = 11;
             this.groupBox9.TabStop = false;
             this.groupBox9.Text = "Fase T";
@@ -693,20 +700,21 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(5, 15);
+            this.label8.Location = new System.Drawing.Point(7, 18);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(92, 29);
+            this.label8.Size = new System.Drawing.Size(118, 36);
             this.label8.TabIndex = 2;
             this.label8.Text = "0000 V";
             // 
             // groupBox8
             // 
             this.groupBox8.Controls.Add(this.label7);
-            this.groupBox8.Location = new System.Drawing.Point(211, 34);
-            this.groupBox8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox8.Location = new System.Drawing.Point(281, 42);
+            this.groupBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox8.Size = new System.Drawing.Size(100, 53);
+            this.groupBox8.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox8.Size = new System.Drawing.Size(133, 65);
             this.groupBox8.TabIndex = 10;
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "Fase S";
@@ -715,20 +723,21 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(5, 15);
+            this.label7.Location = new System.Drawing.Point(7, 18);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(92, 29);
+            this.label7.Size = new System.Drawing.Size(118, 36);
             this.label7.TabIndex = 2;
             this.label7.Text = "0000 V";
             // 
             // groupBox7
             // 
             this.groupBox7.Controls.Add(this.label6);
-            this.groupBox7.Location = new System.Drawing.Point(27, 34);
-            this.groupBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox7.Location = new System.Drawing.Point(36, 42);
+            this.groupBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox7.Size = new System.Drawing.Size(100, 53);
+            this.groupBox7.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox7.Size = new System.Drawing.Size(133, 65);
             this.groupBox7.TabIndex = 9;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Fase R";
@@ -737,18 +746,19 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(5, 15);
+            this.label6.Location = new System.Drawing.Point(7, 18);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(92, 29);
+            this.label6.Size = new System.Drawing.Size(118, 36);
             this.label6.TabIndex = 2;
             this.label6.Text = "0000 V";
             // 
             // dateTimePicker2
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(671, 3);
-            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dateTimePicker2.Location = new System.Drawing.Point(895, 4);
+            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(171, 20);
+            this.dateTimePicker2.Size = new System.Drawing.Size(227, 22);
             this.dateTimePicker2.TabIndex = 30;
             // 
             // tabPage3
@@ -757,11 +767,11 @@
             this.tabPage3.Controls.Add(this.groupBox16);
             this.tabPage3.Controls.Add(this.groupBox17);
             this.tabPage3.Controls.Add(this.dateTimePicker6);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage3.Location = new System.Drawing.Point(4, 25);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.tabPage3.Size = new System.Drawing.Size(844, 581);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabPage3.Size = new System.Drawing.Size(1128, 718);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Gráfico da Tensão";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -769,108 +779,114 @@
             // groupBox18
             // 
             this.groupBox18.Controls.Add(this.chart7);
-            this.groupBox18.Location = new System.Drawing.Point(6, 279);
+            this.groupBox18.Location = new System.Drawing.Point(8, 343);
+            this.groupBox18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox18.Name = "groupBox18";
-            this.groupBox18.Size = new System.Drawing.Size(411, 244);
+            this.groupBox18.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox18.Size = new System.Drawing.Size(548, 300);
             this.groupBox18.TabIndex = 41;
             this.groupBox18.TabStop = false;
             this.groupBox18.Text = "Fase T";
             // 
             // chart7
             // 
-            chartArea9.AxisX.Interval = 10D;
-            chartArea9.AxisX.Maximum = 100D;
-            chartArea9.AxisX.Minimum = 0D;
-            chartArea9.AxisX.Title = "Tempo (s)";
-            chartArea9.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartArea9.AxisY.Maximum = 500D;
-            chartArea9.AxisY.Title = "Tensão (V)";
-            chartArea9.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartArea9.Name = "ChartArea1";
-            this.chart7.ChartAreas.Add(chartArea9);
-            this.chart7.Location = new System.Drawing.Point(5, 18);
-            this.chart7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            chartArea1.AxisX.Interval = 10D;
+            chartArea1.AxisX.Maximum = 100D;
+            chartArea1.AxisX.Minimum = 0D;
+            chartArea1.AxisX.Title = "Tempo (s)";
+            chartArea1.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea1.AxisY.Maximum = 500D;
+            chartArea1.AxisY.Title = "Tensão (V)";
+            chartArea1.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea1.Name = "ChartArea1";
+            this.chart7.ChartAreas.Add(chartArea1);
+            this.chart7.Location = new System.Drawing.Point(7, 22);
+            this.chart7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chart7.Name = "chart7";
-            series9.ChartArea = "ChartArea1";
-            series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series9.Name = "Series1";
-            this.chart7.Series.Add(series9);
-            this.chart7.Size = new System.Drawing.Size(401, 221);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series1.Name = "Series1";
+            this.chart7.Series.Add(series1);
+            this.chart7.Size = new System.Drawing.Size(535, 272);
             this.chart7.TabIndex = 33;
             this.chart7.Text = "chart7";
             // 
             // groupBox16
             // 
             this.groupBox16.Controls.Add(this.chart1);
-            this.groupBox16.Location = new System.Drawing.Point(6, 29);
+            this.groupBox16.Location = new System.Drawing.Point(8, 36);
+            this.groupBox16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox16.Name = "groupBox16";
-            this.groupBox16.Size = new System.Drawing.Size(411, 244);
+            this.groupBox16.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox16.Size = new System.Drawing.Size(548, 300);
             this.groupBox16.TabIndex = 40;
             this.groupBox16.TabStop = false;
             this.groupBox16.Text = "Fase R";
             // 
             // chart1
             // 
-            chartArea10.AxisX.Interval = 10D;
-            chartArea10.AxisX.Maximum = 100D;
-            chartArea10.AxisX.Minimum = 0D;
-            chartArea10.AxisX.Title = "Tempo (s)";
-            chartArea10.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartArea10.AxisY.Maximum = 500D;
-            chartArea10.AxisY.Title = "Tensão (V)";
-            chartArea10.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartArea10.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea10);
-            this.chart1.Location = new System.Drawing.Point(5, 18);
-            this.chart1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            chartArea2.AxisX.Interval = 10D;
+            chartArea2.AxisX.Maximum = 100D;
+            chartArea2.AxisX.Minimum = 0D;
+            chartArea2.AxisX.Title = "Tempo (s)";
+            chartArea2.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea2.AxisY.Maximum = 500D;
+            chartArea2.AxisY.Title = "Tensão (V)";
+            chartArea2.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea2.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea2);
+            this.chart1.Location = new System.Drawing.Point(7, 22);
+            this.chart1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chart1.Name = "chart1";
-            series10.ChartArea = "ChartArea1";
-            series10.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series10.Name = "Series1";
-            this.chart1.Series.Add(series10);
-            this.chart1.Size = new System.Drawing.Size(401, 221);
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series2.Name = "Series1";
+            this.chart1.Series.Add(series2);
+            this.chart1.Size = new System.Drawing.Size(535, 272);
             this.chart1.TabIndex = 33;
             this.chart1.Text = "chart1";
             // 
             // groupBox17
             // 
             this.groupBox17.Controls.Add(this.chart6);
-            this.groupBox17.Location = new System.Drawing.Point(428, 29);
+            this.groupBox17.Location = new System.Drawing.Point(571, 36);
+            this.groupBox17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox17.Name = "groupBox17";
-            this.groupBox17.Size = new System.Drawing.Size(411, 244);
+            this.groupBox17.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox17.Size = new System.Drawing.Size(548, 300);
             this.groupBox17.TabIndex = 39;
             this.groupBox17.TabStop = false;
             this.groupBox17.Text = "Fase S";
             // 
             // chart6
             // 
-            chartArea8.AxisX.Interval = 10D;
-            chartArea8.AxisX.Maximum = 100D;
-            chartArea8.AxisX.Minimum = 0D;
-            chartArea8.AxisX.Title = "Tempo (s)";
-            chartArea8.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartArea8.AxisY.Maximum = 500D;
-            chartArea8.AxisY.Title = "Tensão (V)";
-            chartArea8.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartArea8.Name = "ChartArea1";
-            this.chart6.ChartAreas.Add(chartArea8);
-            this.chart6.Location = new System.Drawing.Point(5, 18);
-            this.chart6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            chartArea3.AxisX.Interval = 10D;
+            chartArea3.AxisX.Maximum = 100D;
+            chartArea3.AxisX.Minimum = 0D;
+            chartArea3.AxisX.Title = "Tempo (s)";
+            chartArea3.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea3.AxisY.Maximum = 500D;
+            chartArea3.AxisY.Title = "Tensão (V)";
+            chartArea3.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea3.Name = "ChartArea1";
+            this.chart6.ChartAreas.Add(chartArea3);
+            this.chart6.Location = new System.Drawing.Point(7, 22);
+            this.chart6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chart6.Name = "chart6";
-            series8.ChartArea = "ChartArea1";
-            series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series8.Name = "Series1";
-            this.chart6.Series.Add(series8);
-            this.chart6.Size = new System.Drawing.Size(401, 221);
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series3.Name = "Series1";
+            this.chart6.Series.Add(series3);
+            this.chart6.Size = new System.Drawing.Size(535, 272);
             this.chart6.TabIndex = 33;
             this.chart6.Text = "chart6";
             // 
             // dateTimePicker6
             // 
-            this.dateTimePicker6.Location = new System.Drawing.Point(670, 4);
-            this.dateTimePicker6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dateTimePicker6.Location = new System.Drawing.Point(893, 5);
+            this.dateTimePicker6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dateTimePicker6.Name = "dateTimePicker6";
-            this.dateTimePicker6.Size = new System.Drawing.Size(173, 20);
+            this.dateTimePicker6.Size = new System.Drawing.Size(229, 22);
             this.dateTimePicker6.TabIndex = 33;
             // 
             // tabPage4
@@ -879,11 +895,11 @@
             this.tabPage4.Controls.Add(this.groupBox14);
             this.tabPage4.Controls.Add(this.groupBox13);
             this.tabPage4.Controls.Add(this.dateTimePicker4);
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
-            this.tabPage4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage4.Location = new System.Drawing.Point(4, 25);
+            this.tabPage4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.tabPage4.Size = new System.Drawing.Size(844, 581);
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabPage4.Size = new System.Drawing.Size(1128, 718);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Gráfico da Corrente";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -891,128 +907,183 @@
             // groupBox15
             // 
             this.groupBox15.Controls.Add(this.chart5);
-            this.groupBox15.Location = new System.Drawing.Point(428, 28);
+            this.groupBox15.Location = new System.Drawing.Point(571, 34);
+            this.groupBox15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox15.Name = "groupBox15";
-            this.groupBox15.Size = new System.Drawing.Size(411, 244);
+            this.groupBox15.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox15.Size = new System.Drawing.Size(548, 300);
             this.groupBox15.TabIndex = 38;
             this.groupBox15.TabStop = false;
             this.groupBox15.Text = "Linha 2";
             // 
             // chart5
             // 
-            chartArea11.AxisX.Interval = 10D;
-            chartArea11.AxisX.Maximum = 100D;
-            chartArea11.AxisX.Minimum = 0D;
-            chartArea11.AxisX.Title = "Tempo (s)";
-            chartArea11.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartArea11.AxisY.Maximum = 20D;
-            chartArea11.AxisY.Title = "Ampere (A)";
-            chartArea11.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartArea11.Name = "ChartArea1";
-            this.chart5.ChartAreas.Add(chartArea11);
-            this.chart5.Location = new System.Drawing.Point(5, 18);
-            this.chart5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            chartArea4.AxisX.Interval = 10D;
+            chartArea4.AxisX.Maximum = 100D;
+            chartArea4.AxisX.Minimum = 0D;
+            chartArea4.AxisX.Title = "Tempo (s)";
+            chartArea4.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea4.AxisY.Maximum = 20D;
+            chartArea4.AxisY.Title = "Ampere (A)";
+            chartArea4.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea4.Name = "ChartArea1";
+            this.chart5.ChartAreas.Add(chartArea4);
+            this.chart5.Location = new System.Drawing.Point(7, 22);
+            this.chart5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chart5.Name = "chart5";
-            series11.ChartArea = "ChartArea1";
-            series11.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series11.Name = "Series1";
-            this.chart5.Series.Add(series11);
-            this.chart5.Size = new System.Drawing.Size(401, 221);
+            series4.ChartArea = "ChartArea1";
+            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series4.Name = "Series1";
+            this.chart5.Series.Add(series4);
+            this.chart5.Size = new System.Drawing.Size(535, 272);
             this.chart5.TabIndex = 33;
             this.chart5.Text = "chart5";
             // 
             // groupBox14
             // 
             this.groupBox14.Controls.Add(this.chart4);
-            this.groupBox14.Location = new System.Drawing.Point(5, 278);
+            this.groupBox14.Location = new System.Drawing.Point(7, 342);
+            this.groupBox14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox14.Name = "groupBox14";
-            this.groupBox14.Size = new System.Drawing.Size(411, 244);
+            this.groupBox14.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox14.Size = new System.Drawing.Size(548, 300);
             this.groupBox14.TabIndex = 37;
             this.groupBox14.TabStop = false;
             this.groupBox14.Text = "Linha 3";
             // 
             // chart4
             // 
-            chartArea12.AxisX.Interval = 10D;
-            chartArea12.AxisX.Maximum = 100D;
-            chartArea12.AxisX.Minimum = 0D;
-            chartArea12.AxisX.Title = "Tempo (s)";
-            chartArea12.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartArea12.AxisY.Maximum = 20D;
-            chartArea12.AxisY.Title = "Ampere (A)";
-            chartArea12.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartArea12.Name = "ChartArea1";
-            this.chart4.ChartAreas.Add(chartArea12);
-            this.chart4.Location = new System.Drawing.Point(5, 18);
-            this.chart4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            chartArea5.AxisX.Interval = 10D;
+            chartArea5.AxisX.Maximum = 100D;
+            chartArea5.AxisX.Minimum = 0D;
+            chartArea5.AxisX.Title = "Tempo (s)";
+            chartArea5.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea5.AxisY.Maximum = 20D;
+            chartArea5.AxisY.Title = "Ampere (A)";
+            chartArea5.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea5.Name = "ChartArea1";
+            this.chart4.ChartAreas.Add(chartArea5);
+            this.chart4.Location = new System.Drawing.Point(7, 22);
+            this.chart4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chart4.Name = "chart4";
-            series12.ChartArea = "ChartArea1";
-            series12.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series12.Name = "Series1";
-            this.chart4.Series.Add(series12);
-            this.chart4.Size = new System.Drawing.Size(401, 221);
+            series5.ChartArea = "ChartArea1";
+            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series5.Name = "Series1";
+            this.chart4.Series.Add(series5);
+            this.chart4.Size = new System.Drawing.Size(535, 272);
             this.chart4.TabIndex = 33;
             this.chart4.Text = "chart4";
             // 
             // groupBox13
             // 
             this.groupBox13.Controls.Add(this.chart2);
-            this.groupBox13.Location = new System.Drawing.Point(6, 28);
+            this.groupBox13.Location = new System.Drawing.Point(8, 34);
+            this.groupBox13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox13.Name = "groupBox13";
-            this.groupBox13.Size = new System.Drawing.Size(411, 244);
+            this.groupBox13.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox13.Size = new System.Drawing.Size(548, 300);
             this.groupBox13.TabIndex = 36;
             this.groupBox13.TabStop = false;
             this.groupBox13.Text = "Linha 1";
             // 
             // chart2
             // 
-            chartArea13.AxisX.Interval = 10D;
-            chartArea13.AxisX.Maximum = 100D;
-            chartArea13.AxisX.Minimum = 0D;
-            chartArea13.AxisX.Title = "Tempo (s)";
-            chartArea13.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartArea13.AxisY.Maximum = 20D;
-            chartArea13.AxisY.Title = "Ampere (A)";
-            chartArea13.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartArea13.Name = "ChartArea1";
-            this.chart2.ChartAreas.Add(chartArea13);
-            this.chart2.Location = new System.Drawing.Point(5, 18);
-            this.chart2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            chartArea6.AxisX.Interval = 10D;
+            chartArea6.AxisX.Maximum = 100D;
+            chartArea6.AxisX.Minimum = 0D;
+            chartArea6.AxisX.Title = "Tempo (s)";
+            chartArea6.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea6.AxisY.Maximum = 20D;
+            chartArea6.AxisY.Title = "Ampere (A)";
+            chartArea6.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea6.Name = "ChartArea1";
+            this.chart2.ChartAreas.Add(chartArea6);
+            this.chart2.Location = new System.Drawing.Point(7, 22);
+            this.chart2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chart2.Name = "chart2";
-            series13.ChartArea = "ChartArea1";
-            series13.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series13.Name = "Series1";
-            this.chart2.Series.Add(series13);
-            this.chart2.Size = new System.Drawing.Size(401, 221);
+            series6.ChartArea = "ChartArea1";
+            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series6.Name = "Series1";
+            this.chart2.Series.Add(series6);
+            this.chart2.Size = new System.Drawing.Size(535, 272);
             this.chart2.TabIndex = 33;
             this.chart2.Text = "chart2";
             // 
             // dateTimePicker4
             // 
-            this.dateTimePicker4.Location = new System.Drawing.Point(670, 3);
-            this.dateTimePicker4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dateTimePicker4.Location = new System.Drawing.Point(893, 4);
+            this.dateTimePicker4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dateTimePicker4.Name = "dateTimePicker4";
-            this.dateTimePicker4.Size = new System.Drawing.Size(173, 20);
+            this.dateTimePicker4.Size = new System.Drawing.Size(229, 22);
             this.dateTimePicker4.TabIndex = 31;
             // 
             // tabPage5
             // 
             this.tabPage5.Controls.Add(this.groupBox19);
             this.tabPage5.Controls.Add(this.dateTimePicker3);
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Location = new System.Drawing.Point(4, 25);
+            this.tabPage5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPage5.Size = new System.Drawing.Size(844, 581);
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage5.Size = new System.Drawing.Size(1128, 718);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Gráfico da Velocidade";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
+            // groupBox19
+            // 
+            this.groupBox19.Controls.Add(this.scrGraf);
+            this.groupBox19.Controls.Add(this.chart3);
+            this.groupBox19.Location = new System.Drawing.Point(8, 33);
+            this.groupBox19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox19.Name = "groupBox19";
+            this.groupBox19.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox19.Size = new System.Drawing.Size(1113, 629);
+            this.groupBox19.TabIndex = 35;
+            this.groupBox19.TabStop = false;
+            this.groupBox19.Text = "Velocidade";
+            // 
+            // scrGraf
+            // 
+            this.scrGraf.Location = new System.Drawing.Point(140, 572);
+            this.scrGraf.Name = "scrGraf";
+            this.scrGraf.Size = new System.Drawing.Size(915, 16);
+            this.scrGraf.TabIndex = 35;
+            this.scrGraf.Value = 100;
+            this.scrGraf.Visible = false;
+            this.scrGraf.Scroll += new System.Windows.Forms.ScrollEventHandler(this.scrGraf_Scroll);
+            // 
+            // chart3
+            // 
+            chartArea7.AxisX.Interval = 10D;
+            chartArea7.AxisX.Maximum = 100D;
+            chartArea7.AxisX.Minimum = 0D;
+            chartArea7.AxisX.Title = "Tempo (s)";
+            chartArea7.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea7.AxisY.Maximum = 5000D;
+            chartArea7.AxisY.Title = "Velocidade (rpm)";
+            chartArea7.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea7.CursorX.IsUserSelectionEnabled = true;
+            chartArea7.CursorY.IsUserSelectionEnabled = true;
+            chartArea7.Name = "ChartArea1";
+            this.chart3.ChartAreas.Add(chartArea7);
+            this.chart3.Location = new System.Drawing.Point(7, 22);
+            this.chart3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.chart3.Name = "chart3";
+            series7.ChartArea = "ChartArea1";
+            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series7.Name = "Series1";
+            this.chart3.Series.Add(series7);
+            this.chart3.Size = new System.Drawing.Size(1100, 567);
+            this.chart3.TabIndex = 34;
+            this.chart3.Text = "chart3";
+            // 
             // dateTimePicker3
             // 
-            this.dateTimePicker3.Location = new System.Drawing.Point(669, 5);
-            this.dateTimePicker3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dateTimePicker3.Location = new System.Drawing.Point(892, 6);
+            this.dateTimePicker3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(173, 20);
+            this.dateTimePicker3.Size = new System.Drawing.Size(229, 22);
             this.dateTimePicker3.TabIndex = 34;
             // 
             // Serial
@@ -1026,8 +1097,8 @@
             this.arquivoToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(852, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1136, 28);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -1037,20 +1108,20 @@
             this.salvarToolStripMenuItem,
             this.sairToolStripMenuItem});
             this.arquivoToolStripMenuItem.Name = "arquivoToolStripMenuItem";
-            this.arquivoToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
+            this.arquivoToolStripMenuItem.Size = new System.Drawing.Size(75, 24);
             this.arquivoToolStripMenuItem.Text = "Arquivo";
             // 
             // salvarToolStripMenuItem
             // 
             this.salvarToolStripMenuItem.Name = "salvarToolStripMenuItem";
-            this.salvarToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
+            this.salvarToolStripMenuItem.Size = new System.Drawing.Size(132, 26);
             this.salvarToolStripMenuItem.Text = "Salvar";
             this.salvarToolStripMenuItem.Click += new System.EventHandler(this.salvarToolStripMenuItem_Click);
             // 
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(132, 26);
             this.sairToolStripMenuItem.Text = "Sair";
             // 
             // tmrApp
@@ -1069,48 +1140,15 @@
             this.tmrPlot.Interval = 1000;
             this.tmrPlot.Tick += new System.EventHandler(this.button1_Click);
             // 
-            // groupBox19
-            // 
-            this.groupBox19.Controls.Add(this.chart3);
-            this.groupBox19.Location = new System.Drawing.Point(6, 27);
-            this.groupBox19.Name = "groupBox19";
-            this.groupBox19.Size = new System.Drawing.Size(835, 511);
-            this.groupBox19.TabIndex = 35;
-            this.groupBox19.TabStop = false;
-            this.groupBox19.Text = "Velocidade";
-            // 
-            // chart3
-            // 
-            chartArea14.AxisX.Interval = 10D;
-            chartArea14.AxisX.Maximum = 100D;
-            chartArea14.AxisX.Minimum = 0D;
-            chartArea14.AxisX.Title = "Tempo (s)";
-            chartArea14.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartArea14.AxisY.Maximum = 5000D;
-            chartArea14.AxisY.Title = "Velocidade (rpm)";
-            chartArea14.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartArea14.Name = "ChartArea1";
-            this.chart3.ChartAreas.Add(chartArea14);
-            this.chart3.Location = new System.Drawing.Point(5, 18);
-            this.chart3.Margin = new System.Windows.Forms.Padding(2);
-            this.chart3.Name = "chart3";
-            series14.ChartArea = "ChartArea1";
-            series14.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series14.Name = "Series1";
-            this.chart3.Series.Add(series14);
-            this.chart3.Size = new System.Drawing.Size(825, 475);
-            this.chart3.TabIndex = 34;
-            this.chart3.Text = "chart3";
-            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(852, 631);
+            this.ClientSize = new System.Drawing.Size(1136, 777);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Supervisório";
             this.tabControl1.ResumeLayout(false);
@@ -1154,10 +1192,10 @@
             this.groupBox13.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.chart2)).EndInit();
             this.tabPage5.ResumeLayout(false);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.groupBox19.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.chart3)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1239,6 +1277,7 @@
         private System.Windows.Forms.Timer tmrPlot;
         private System.Windows.Forms.GroupBox groupBox19;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart3;
+        private System.Windows.Forms.HScrollBar scrGraf;
     }
 }
 
