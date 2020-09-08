@@ -120,6 +120,7 @@
             this.tmrApp = new System.Windows.Forms.Timer(this.components);
             this.svArquivo = new System.Windows.Forms.SaveFileDialog();
             this.tmrPlot = new System.Windows.Forms.Timer(this.components);
+            this.btnLimpar = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -198,6 +199,7 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.btnLimpar);
             this.groupBox3.Controls.Add(this.txtRecebe);
             this.groupBox3.Location = new System.Drawing.Point(24, 361);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -214,7 +216,7 @@
             this.txtRecebe.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtRecebe.Multiline = true;
             this.txtRecebe.Name = "txtRecebe";
-            this.txtRecebe.Size = new System.Drawing.Size(923, 309);
+            this.txtRecebe.Size = new System.Drawing.Size(923, 255);
             this.txtRecebe.TabIndex = 0;
             // 
             // groupBox2
@@ -483,7 +485,7 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(309, 395);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(152, 39);
             this.button2.TabIndex = 1;
@@ -494,7 +496,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(80, 395);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(152, 39);
             this.button1.TabIndex = 0;
@@ -507,9 +509,9 @@
             this.groupBox6.Controls.Add(this.aGadc);
             this.groupBox6.Controls.Add(this.lblLeitura);
             this.groupBox6.Location = new System.Drawing.Point(755, 36);
-            this.groupBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox6.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox6.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox6.Size = new System.Drawing.Size(343, 315);
             this.groupBox6.TabIndex = 33;
             this.groupBox6.TabStop = false;
@@ -593,9 +595,9 @@
             this.groupBox5.Controls.Add(this.groupBox11);
             this.groupBox5.Controls.Add(this.groupBox10);
             this.groupBox5.Location = new System.Drawing.Point(28, 197);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox5.Size = new System.Drawing.Size(705, 154);
             this.groupBox5.TabIndex = 32;
             this.groupBox5.TabStop = false;
@@ -676,9 +678,9 @@
             this.groupBox4.Controls.Add(this.groupBox8);
             this.groupBox4.Controls.Add(this.groupBox7);
             this.groupBox4.Location = new System.Drawing.Point(28, 36);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox4.Size = new System.Drawing.Size(705, 154);
             this.groupBox4.TabIndex = 31;
             this.groupBox4.TabStop = false;
@@ -780,9 +782,9 @@
             // 
             this.groupBox18.Controls.Add(this.chart7);
             this.groupBox18.Location = new System.Drawing.Point(8, 343);
-            this.groupBox18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox18.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox18.Name = "groupBox18";
-            this.groupBox18.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox18.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox18.Size = new System.Drawing.Size(548, 300);
             this.groupBox18.TabIndex = 41;
             this.groupBox18.TabStop = false;
@@ -815,9 +817,9 @@
             // 
             this.groupBox16.Controls.Add(this.chart1);
             this.groupBox16.Location = new System.Drawing.Point(8, 36);
-            this.groupBox16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox16.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox16.Name = "groupBox16";
-            this.groupBox16.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox16.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox16.Size = new System.Drawing.Size(548, 300);
             this.groupBox16.TabIndex = 40;
             this.groupBox16.TabStop = false;
@@ -850,9 +852,9 @@
             // 
             this.groupBox17.Controls.Add(this.chart6);
             this.groupBox17.Location = new System.Drawing.Point(571, 36);
-            this.groupBox17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox17.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox17.Name = "groupBox17";
-            this.groupBox17.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox17.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox17.Size = new System.Drawing.Size(548, 300);
             this.groupBox17.TabIndex = 39;
             this.groupBox17.TabStop = false;
@@ -908,9 +910,9 @@
             // 
             this.groupBox15.Controls.Add(this.chart5);
             this.groupBox15.Location = new System.Drawing.Point(571, 34);
-            this.groupBox15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox15.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox15.Name = "groupBox15";
-            this.groupBox15.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox15.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox15.Size = new System.Drawing.Size(548, 300);
             this.groupBox15.TabIndex = 38;
             this.groupBox15.TabStop = false;
@@ -943,9 +945,9 @@
             // 
             this.groupBox14.Controls.Add(this.chart4);
             this.groupBox14.Location = new System.Drawing.Point(7, 342);
-            this.groupBox14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox14.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox14.Name = "groupBox14";
-            this.groupBox14.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox14.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox14.Size = new System.Drawing.Size(548, 300);
             this.groupBox14.TabIndex = 37;
             this.groupBox14.TabStop = false;
@@ -978,9 +980,9 @@
             // 
             this.groupBox13.Controls.Add(this.chart2);
             this.groupBox13.Location = new System.Drawing.Point(8, 34);
-            this.groupBox13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox13.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox13.Name = "groupBox13";
-            this.groupBox13.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox13.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox13.Size = new System.Drawing.Size(548, 300);
             this.groupBox13.TabIndex = 36;
             this.groupBox13.TabStop = false;
@@ -1022,9 +1024,9 @@
             this.tabPage5.Controls.Add(this.groupBox19);
             this.tabPage5.Controls.Add(this.dateTimePicker3);
             this.tabPage5.Location = new System.Drawing.Point(4, 25);
-            this.tabPage5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage5.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage5.Size = new System.Drawing.Size(1128, 718);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Gráfico da Velocidade";
@@ -1035,9 +1037,9 @@
             this.groupBox19.Controls.Add(this.scrGraf);
             this.groupBox19.Controls.Add(this.chart3);
             this.groupBox19.Location = new System.Drawing.Point(8, 33);
-            this.groupBox19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox19.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox19.Name = "groupBox19";
-            this.groupBox19.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox19.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox19.Size = new System.Drawing.Size(1113, 629);
             this.groupBox19.TabIndex = 35;
             this.groupBox19.TabStop = false;
@@ -1139,6 +1141,16 @@
             // 
             this.tmrPlot.Interval = 1000;
             this.tmrPlot.Tick += new System.EventHandler(this.button1_Click);
+            // 
+            // btnLimpar
+            // 
+            this.btnLimpar.Location = new System.Drawing.Point(828, 294);
+            this.btnLimpar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(115, 42);
+            this.btnLimpar.TabIndex = 21;
+            this.btnLimpar.Text = "Limpar";
+            this.btnLimpar.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -1278,6 +1290,7 @@
         private System.Windows.Forms.GroupBox groupBox19;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart3;
         private System.Windows.Forms.HScrollBar scrGraf;
+        private System.Windows.Forms.Button btnLimpar;
     }
 }
 

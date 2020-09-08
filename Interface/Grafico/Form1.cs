@@ -179,15 +179,15 @@ namespace Projeto_Final
             txtRecebe.Text += RxString;
             txt_Rec += RxString;
 
-            if (txt_Rec.Length >= 8)
+            if (txt_Rec.Length >= 10)
             {
                 if (txt_Rec.Substring(0, 1) == "A")
                 {
-                    lblLeitura.Text = txt_Rec.Substring(4, 4);
-                    txt_List = txt_Rec.Substring(0, 8);
+                    lblLeitura.Text = txt_Rec.Substring(4, 6);
+                    txt_List = txt_Rec.Substring(0, 10);
 
-                    rpm = Convert.ToInt32(txt_Rec.Substring(4, 4));
-                    aGadc.Value = (rpm * 3000) / 1023;
+                    rpm = Convert.ToInt32(txt_Rec.Substring(4, 6));
+                    aGadc.Value = ((rpm ) * 4 )/ 60;
                     lblLeitura.Text = aGadc.Value.ToString() + "rpm";
 
                     crtRpm = aGadc.Value;
@@ -204,8 +204,8 @@ namespace Projeto_Final
 
                     volts = Convert.ToInt32(txt_Rec.Substring(4, 4));
                     label6.Text = volts + "V";
-                    label7.Text = (volts * 0, 5) + "V";
-                    label8.Text = (volts * 0, 5) + "V";
+                    label7.Text = (volts * 0.5) + "V";
+                    label8.Text = (volts * 0.5) + "V";
 
                 }
             }
@@ -218,8 +218,8 @@ namespace Projeto_Final
 
                     corrente = Convert.ToInt32(txt_Rec.Substring(4, 4));
                     label9.Text = corrente + "A";
-                    label10.Text = (corrente * 0, 5) + "A";
-                    label11.Text = (corrente * 0, 5) + "A";
+                    label10.Text = (corrente * 0.5) + "A";
+                    label11.Text = (corrente * 0.5) + "A";
 
                 }
             }
