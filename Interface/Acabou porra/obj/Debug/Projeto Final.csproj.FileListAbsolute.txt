@@ -1,0 +1,26 @@
+C:\Users\Alexandre\source\repos\Projeto 51\bin\Debug\Projeto Final.exe.config
+C:\Users\Alexandre\source\repos\Projeto 51\bin\Debug\Projeto Final.exe
+C:\Users\Alexandre\source\repos\Projeto 51\bin\Debug\Projeto Final.pdb
+C:\Users\Alexandre\source\repos\Projeto 51\obj\Debug\Projeto_Final.Form1.resources
+C:\Users\Alexandre\source\repos\Projeto 51\obj\Debug\Projeto_Final.Properties.Resources.resources
+C:\Users\Alexandre\source\repos\Projeto 51\obj\Debug\Projeto Final.csproj.GenerateResource.cache
+C:\Users\Alexandre\source\repos\Projeto 51\obj\Debug\Projeto Final.csproj.CoreCompileInputs.cache
+C:\Users\Alexandre\source\repos\Projeto 51\obj\Debug\Projeto Final.exe
+C:\Users\Alexandre\source\repos\Projeto 51\obj\Debug\Projeto Final.pdb
+C:\Users\Alexandre\source\repos\Projeto 51\obj\Debug\Projeto Final.csprojAssemblyReference.cache
+C:\Users\Alexandre\source\repos\Projeto 51\bin\Debug\AGauge.dll
+C:\Users\Alexandre\source\repos\Projeto 51\obj\Debug\Projeto Final.csproj.CopyComplete
+C:\Users\Alexandre\source\repos\Projeto 51\bin\Debug\MetroFramework.dll
+C:\Users\Alexandre\source\repos\Projeto Final\obj\Debug\Projeto Final.csprojAssemblyReference.cache
+C:\Users\Alexandre\source\repos\Projeto Final\obj\Debug\Projeto_Final.Form1.resources
+C:\Users\Alexandre\source\repos\Projeto Final\obj\Debug\Projeto_Final.Properties.Resources.resources
+C:\Users\Alexandre\source\repos\Projeto Final\obj\Debug\Projeto Final.csproj.GenerateResource.cache
+C:\Users\Alexandre\source\repos\Projeto Final\obj\Debug\Projeto Final.csproj.CoreCompileInputs.cache
+C:\Users\Alexandre\source\repos\Projeto Final\obj\Debug\Projeto Final.exe
+C:\Users\Alexandre\source\repos\Projeto Final\obj\Debug\Projeto Final.pdb
+C:\Users\Alexandre\source\repos\Projeto Final\bin\Debug\Projeto Final.exe.config
+C:\Users\Alexandre\source\repos\Projeto Final\bin\Debug\Projeto Final.exe
+C:\Users\Alexandre\source\repos\Projeto Final\bin\Debug\Projeto Final.pdb
+C:\Users\Alexandre\source\repos\Projeto Final\bin\Debug\AGauge.dll
+C:\Users\Alexandre\source\repos\Projeto Final\bin\Debug\MetroFramework.dll
+C:\Users\Alexandre\source\repos\Projeto Final\obj\Debug\Projeto Final.csproj.CopyComplete
